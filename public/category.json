@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "category_name": "Software Development",
+    "available_job": 1450
+  },
+  {
+    "id": 2,
+    "category_name": "Data Science",
+    "available_job": 1200
+  },
+  {
+    "id": 3,
+    "category_name": "Cybersecurity",
+    "available_job": 950
+  },
+  {
+    "id": 4,
+    "category_name": "Cloud Computing",
+    "available_job": 800
+  },
+  {
+    "id": 5,
+    "category_name": "Artificial Intelligence",
+    "available_job": 700
+  },
+  {
+    "id": 6,
+    "category_name": "Web Development",
+    "available_job": 1600
+  },
+  {
+    "id": 7,
+    "category_name": "Mobile App Development",
+    "available_job": 1100
+  },
+  {
+    "id": 8,
+    "category_name": "UI/UX Design",
+    "available_job": 850
+  },
+  {
+    "id": 9,
+    "category_name": "DevOps Engineering",
+    "available_job": 600
+  },
+  {
+    "id": 10,
+    "category_name": "Blockchain Development",
+    "available_job": 500
+  },
+  {
+    "id": 11,
+    "category_name": "Game Development",
+    "available_job": 400
+  },
+  {
+    "id": 12,
+    "category_name": "IT Support",
+    "available_job": 1300
+  },
+  {
+    "id": 13,
+    "category_name": "Digital Marketing",
+    "available_job": 750
+  },
+  {
+    "id": 14,
+    "category_name": "Machine Learning Engineering",
+    "available_job": 650
+  },
+  {
+    "id": 15,
+    "category_name": "Internet of Things (IoT)",
+    "available_job": 550
+  },
+  {
+    "id": 16,
+    "category_name": "AR/VR Development",
+    "available_job": 350
+  }
+]

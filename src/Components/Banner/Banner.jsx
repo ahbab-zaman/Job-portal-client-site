@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <div>
-      <div className="hero h-96 bg-[#F2F6FD]">
+      <div className="hero h-[500px] bg-[#F2F6FD]">
         <div className="hero-content flex-col lg:flex-row-reverse w-11/12 mx-auto py-4">
           <div className="flex-1">
             <motion.img
               animate={{ y: [80, 120, 50] }}
               transition={{ duration: 10, repeat: Infinity }}
               src={banner1}
-              className="max-w-sm w-64 rounded-tl-3xl rounded-br-3xl shadow-2xl border-blue-600 border-l-[6px] border-b-[6px]"
+              className="max-w-sm w-80 rounded-tl-3xl rounded-br-3xl shadow-2xl border-blue-600 border-l-[6px] border-b-[6px]"
             />
             <motion.img
               animate={{ x: [100, 200, 100] }}
               transition={{ duration: 10, repeat: Infinity }}
               src={banner2}
-              className="max-w-sm w-64 rounded-tl-3xl rounded-br-3xl shadow-2xl border-blue-600 border-l-[6px] border-b-[6px]"
+              className="max-w-sm w-80 rounded-tl-3xl rounded-br-3xl shadow-2xl border-blue-600 border-l-[6px] border-b-[6px]"
             />
           </div>
           <div className="flex-1">
