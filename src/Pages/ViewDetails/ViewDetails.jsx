@@ -4,6 +4,7 @@ const ViewDetails = () => {
   const data = useLoaderData();
   console.log(data);
   const {
+    _id,
     category,
     company,
     title,
@@ -30,7 +31,7 @@ const ViewDetails = () => {
           </div>
           <div>
             <div>
-              <Link>
+              <Link to={`/applyJob/${_id}`}>
                 <button className="btn bg-blue-200 text-blue-900">
                   Apply Now
                 </button>

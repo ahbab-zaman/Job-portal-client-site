@@ -1,5 +1,6 @@
 import { CiLocationOn } from "react-icons/ci";
 import { BiCategory } from "react-icons/bi";
+import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 const JobCard = ({ job }) => {
   const {
@@ -15,7 +16,11 @@ const JobCard = ({ job }) => {
     salaryRange,
   } = job;
   return (
-    <div className="card shadow-xl">
+    <motion.div
+      className="card shadow-xl"
+      whileHover={{ scale: [null, 1.1, 1.1] }}
+      transition={{ duration: 0.2 }}
+    >
       <div
         className="flex items-center p-4 gap-4
       "
@@ -46,11 +51,13 @@ const JobCard = ({ job }) => {
             ${salaryRange.min}-{salaryRange.max} {salaryRange.currency}
           </div>
           <Link to={`/viewDetails/${_id}`}>
-            <button className="btn bg-blue-200 text-blue-900">View Details</button>
+            <button className="btn bg-blue-200 text-blue-900">
+              View Details
+            </button>
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

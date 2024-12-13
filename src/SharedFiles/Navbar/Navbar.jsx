@@ -54,6 +54,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/addJobs">Add Jobs</NavLink>
             </li>
+            <li>
+              <NavLink to={`/myJobList`}>My Job List</NavLink>
+            </li>
           </ul>
         </div>
         <div className="navbar-end space-x-2">
