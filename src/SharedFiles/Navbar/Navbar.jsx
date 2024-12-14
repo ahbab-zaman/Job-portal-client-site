@@ -49,13 +49,13 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/allJobs">All Jobs</NavLink>
+              <NavLink to={`/myPostedJobs`}>My Posted Jobs</NavLink>
             </li>
             <li>
               <NavLink to="/addJobs">Add Jobs</NavLink>
             </li>
             <li>
-              <NavLink to={`/myJobList`}>My Job List</NavLink>
+              <NavLink to={`/myJobList/${user?.email}`}>My Job List</NavLink>
             </li>
           </ul>
         </div>

@@ -41,11 +41,11 @@ const JobCard = ({ job }) => {
           <BiCategory></BiCategory> {jobType}
         </h2>
         <p>{description}</p>
-        <div className="flex flex-wrap gap-2 font-semibold">
+        {/* <div className="flex flex-wrap gap-2 font-semibold">
           {requirements.map((req) => (
-            <button className="btn">{req}</button>
+            <button className="btn" req={req}></button>
           ))}
-        </div>
+        </div> */}
         <div className="card-actions items-center justify-between mt-4">
           <div className="text-blue-500 font-semibold">
             ${salaryRange.min}-{salaryRange.max} {salaryRange.currency}
